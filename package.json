@@ -1,0 +1,23 @@
+{
+  "name": "file-share",
+  "author": "JustDs <i@justds.me>",
+  "description": "一个匿名文件分享服务.",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node file-share.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JustDs/file-share.git"
+  },
+  "dependencies": {
+    "express": "~4.4.4",
+    "ejs": "*",
+    "errorhandler": "*",
+    "morgan": "*",
+    "body-parser": "*",
+    "method-override": "*"
+  },
+  "license": "MIT"
+}
